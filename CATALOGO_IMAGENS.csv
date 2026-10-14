@@ -1,0 +1,39 @@
+id,title,section,topic,source,reuse
+G01,Joelhos recurvados e posição neutra,Guia,condicao,aprovada,
+G02,Alinhamento corporal lateral,Guia,condicao,aprovada,
+G04,Postura ao balcão,Guia,postura,aprovada,
+G05,Apoio alternado num degrau baixo,Guia,postura,aprovada,
+G06,Pausas discretas no trabalho,Guia,postura,dummy,
+G07,Calçado estável e confortável,Guia,cuidados,dummy,
+G08,Descanso com pernas apoiadas,Guia,cuidados,dummy,
+G09,Dormir de lado com almofada,Guia,cuidados,dummy,
+G10,Dormir de costas com almofada,Guia,cuidados,dummy,
+G11,Evitar compensações lombares,Guia,cuidados,dummy,
+R01,Respiração sentada,Rotinas,manha,dummy,
+R02,Mobilidade suave de ombros,Rotinas,manha,dummy,
+R03,Caminhada suave,Rotinas,manha,dummy,
+R04,Verificar a postura,Rotinas,trabalho,dummy,G04
+R05,Alternar o apoio,Rotinas,trabalho,dummy,G05
+R06,Pausa discreta,Rotinas,trabalho,dummy,G06
+R07,Descanso das pernas,Rotinas,casa,dummy,G08
+R08,Relaxamento sentado,Rotinas,casa,dummy,
+R09,Caminhada curta ao chegar a casa,Rotinas,casa,dummy,
+R10,Dormir de lado,Rotinas,noite,dummy,G09
+R11,Dormir de costas,Rotinas,noite,dummy,G10
+R12,Relaxamento antes de dormir,Rotinas,noite,dummy,
+E01,Flexão do joelho em pé,Exercícios,casa,dummy,
+E02,Mini-agachamento,Exercícios,casa,dummy,
+E03,Equilíbrio numa perna,Exercícios,casa,dummy,
+E04,Elevação dos calcanhares,Exercícios,casa,dummy,
+E05,Subida para degrau baixo,Exercícios,casa,dummy,
+E06,Leg curl sentado,Exercícios,ginasio,dummy,
+E07,Leg press,Exercícios,ginasio,dummy,
+E08,Abdução da anca,Exercícios,ginasio,dummy,
+E09,Leg extension,Exercícios,ginasio,dummy,
+E10,Gémeos sentado,Exercícios,ginasio,dummy,
+E11,Chest press,Exercícios,superior,dummy,
+E12,Peck deck,Exercícios,superior,dummy,
+E13,Bíceps com apoio,Exercícios,superior,dummy,
+E14,Tríceps com apoio,Exercícios,superior,dummy,
+E15,Elevação lateral sentada,Exercícios,superior,dummy,
+E16,Shoulder press,Exercícios,superior,dummy,

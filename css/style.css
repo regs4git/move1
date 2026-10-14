@@ -6,3 +6,6 @@
 #splash{position:fixed;inset:0;z-index:100;background:linear-gradient(165deg,#e9f6f5,#fef7e9);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;text-align:center;padding:24px;color:#183238;transition:opacity .35s}#splash img{width:min(65vw,240px);height:min(45vh,310px);object-fit:cover;border-radius:100px 100px 24px 24px;box-shadow:0 14px 38px #0b53662b}#splash strong{font-size:clamp(1.8rem,8vw,2.6rem)}#splash p{font-size:clamp(1.1rem,5vw,1.45rem);line-height:1.5;margin:0;font-weight:600}#splash.hidden{opacity:0;pointer-events:none}@media(prefers-reduced-motion:reduce){#splash{transition:none}}
 
 .brand{display:flex;align-items:center;gap:7px}.brandmark{width:30px;height:30px;flex:none;object-fit:contain}
+
+/* Move+ 1.0.2: imagens substituíveis sem alterar código */
+.illustration img{width:100%;height:100%;object-fit:contain;display:block}.guidecard .illustration,.routinecard .illustration{height:auto;aspect-ratio:8/5;max-height:none}.guide-tips .item{align-items:flex-start;padding:9px 2px}.guide-tips .item span:first-child{color:var(--accent);font-weight:800}.routinecard .illustration{max-height:240px}.guidecard .desc,.routinecard .desc{color:var(--ink)}

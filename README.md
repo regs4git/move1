@@ -1,30 +1,23 @@
-# Move+ — v1.0.1
+# Move+ — v1.0.2
 
-Guia de autocuidado, postura e exercício em português de Portugal. PWA sem contas, sem rastreio e com utilização offline.
+PWA de autocuidado, Guia, Exercícios e Rotinas. Offline-first, sem contas.
 
-## Publicação no GitHub Pages
+## Publicação
+Publicar o conteúdo deste ZIP na raiz do repositório GitHub Pages. Abrir `https://regs4git.github.io/move/`. A PWA pode ser instalada pelo menu do browser.
 
-1. Copiar **o conteúdo** desta pasta para a raiz do repositório `regs4git/move`.
-2. Em **Settings → Pages**, escolher **Deploy from a branch**, branch `main`, pasta `/(root)`.
-3. Abrir `https://regs4git.github.io/move/` depois de o GitHub Pages publicar.
-4. No navegador do telemóvel, escolher **Instalar aplicação** ou **Adicionar ao ecrã principal**.
+## Substituir imagens
+O catálogo `CATALOGO_IMAGENS.csv` identifica cada imagem. Os ficheiros têm nomes estáveis em `assets/illustrations/` (ex.: `G06.webp`). Substituir pelo WebP definitivo **com o mesmo nome**; fazer commit e incrementar a versão em `version.json`, `index.html`, `js/app.js` e a constante `CACHE` em `sw.js`, para invalidar a cache offline.
 
-## Utilização
+As imagens G01, G02, G04 e G05 são provenientes do pacote de imagens aprovadas. Todas as outras são placeholders. A imagem F2 de pés planos está excluída por ser fase 2.
 
-- Barra inferior: Início, Guia, Exercícios e Rotinas.
-- Em Exercícios: separadores Casa, Ginásio, Superior e Favoritos; índice rápido; botões anterior/seguinte.
-- Tocar em ♡ para guardar exercícios; ♥ identifica os guardados.
-- Ícone lua/sol no cabeçalho alterna o tema. Configuração permite alterar o tamanho da letra.
-- Preferências e favoritos guardados localmente neste navegador; limpar dados do site elimina-os.
+## Segurança e âmbito
+A biblioteca de exercícios de membros inferiores é educativa e não corresponde a autorização clínica para os executar. As doses são exemplos gerais e devem ser individualizadas. Se houver dor persistente ou agravamento, seguir avaliação profissional.
 
-## Actualizações
-
-Alterar `version.json` e a constante `CACHE` de `sw.js` em cada entrega, actualizar os ficheiros e publicar. O botão de Configuração verifica a versão no servidor e pede para recarregar se detectar versão diferente. Após publicação pode existir atraso devido à cache do GitHub Pages.
-
-## Limitações desta entrega
-
-As ilustrações de exercícios são **esquemáticas e ainda não constituem uma biblioteca anatómica validada**. A imagem de abertura é provisória. Antes de divulgar como guia clínico, rever as imagens, as instruções e a adequação individual dos exercícios. A indicação «menor exigência lombar» não garante segurança perante hérnia discal.
-
-## Autoria
+## Manual breve
+- **Início:** atalhos para rotinas e favoritos.
+- **Guia:** separadores por tema, índice e navegação anterior/seguinte.
+- **Exercícios:** escolher categoria e ficha, marcar favoritos, consultar adaptação lombar.
+- **Rotinas:** sequências de manhã, trabalho, chegada a casa e noite.
+- **Configuração:** letra, tema, favoritos e actualizações.
 
 Piquinho Software — Craft with Altitude. Built with Joy.

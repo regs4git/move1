@@ -1,4 +1,4 @@
-# Movimento+ — v1.0.0
+# Move+ — v1.0.1
 
 Guia de autocuidado, postura e exercício em português de Portugal. PWA sem contas, sem rastreio e com utilização offline.
 

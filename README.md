@@ -1,4 +1,4 @@
-# Move+ v1.0.3
+# Move+ v1.0.4
 
 PWA educativa, offline-first. Publicar o conteúdo deste ZIP na raiz do repositório GitHub Pages.
 
